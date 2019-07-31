@@ -1,0 +1,82 @@
+body {
+  font-size: 12pt;
+  font-family: Times, "Times New Roman", serif;
+  line-height: 1.4em;
+  margin: 10px 40px 10px 40px;
+  width: 700px;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#garantia {
+  padding: 25px 25px 25px 25px;
+  border: thin solid black;
+  margin-right: 240px;
+  margin-left: 30px;
+  line-height: 1.5em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222222;
+}
+
+#elixires {
+  font-family: Verdana, Helvetica, Arial, sans-serif; 
+  width: 200px;
+  background-color: #ffffff;
+  background: url("images/elixirbackground.gif") repeat-x top center;
+  padding: 0px 20px 20px 20px;
+  margin-left: 25px;
+  color: #000000;
+  border: thin double #007e7e;
+  text-align: center; 
+  font-size: 80%;
+}
+
+#elixires a:link { color: #007e7e;}
+#elixires a:visited { color: #333333;}
+#elixires a:hover { background: #f88396; color: #0d5353;}
+
+#elixires h2 {
+  color: #000000;
+}
+
+#elixires h3 {
+  color: #d12c47;
+}
+
+#elixires img {
+  padding-top: 20px;
+}
+	
+#elixires p {
+  line-height: 1em;
+}
+
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.artista {
+  font-weight: bold;
+}
+
+.cd {
+  font-style: italic;
+}
+
+body p a:link { color: #007e7e; }
+body p a:visited { color: #333333; }
+
