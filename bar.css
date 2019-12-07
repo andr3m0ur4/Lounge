@@ -1,16 +1,25 @@
-body{
+body {
     font: medium/1.9em Verdana, Helvetica, Arial, sans-serif;    
 }
-h1, h2{    
+
+h1, h2 {    
     color: #007e7e;               
-}            
-h1{
-    font-size: 150%;
 }
-h2{
-    font-size: 130%;
+
+h1 {
+    font-size: 1.5em;
 }
-#garantia{
+
+h2 {
+    font-size: 1.3em;
+}
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#garantia {
     line-height: 1.9em;
     font-style: italic;
     color: #444444;
@@ -22,7 +31,8 @@ h2{
     margin-right: 250px;
     background: url(imagem/background.gif) no-repeat top left #a7cece;    
 }
-#elixires{
+
+#elixires {
     border: thin solid #007e7e;    
     width: 200px;
     padding-right: 20px;
@@ -34,37 +44,47 @@ h2{
     line-height: 1;
     float: right;
 }
-#elixires h2{
+
+#elixires h2 {
     color: black;
 }
-#elixires h3{
+
+#elixires h3 {
     color: #d12c47;
 }
-#rodape{
-    font-size: 50%;
+
+#rodape {
+    font-size: 0.5em;
     line-height: normal;    
     text-align: center;
     margin-top: 30px;
 }
-.cd{
+
+.cd {
     font-style: italic;
 }
-.artista{
+
+.artista {
     font-weight: bold;
 }
-#elixires a:link{
+
+#elixires a:link {
     color: #007e7e;
 }
-#elixires a:visited{
+
+#elixires a:visited {
     color: #333333;
 }
-#elixires a:hover{
+
+#elixires a:hover {
     background: #f88396;
     color: #0d5353;
 }
-a:link{
+
+a:link {
     color: #007e7e;
 }
-a:visited{
+
+a:visited {
     color: #333333;
 }
